@@ -1,0 +1,39 @@
+name,address,rw,start,dtype,value,description
+remoteMode,20001,0,0,bit,,remotemode
+TeachMode,20001,0,1,bit,,TeachMode
+playbackMode,20001,0,2,bit,,playbackMode
+motorON,20001,0,3,bit,,
+Moving,20001,0,4,bit,,
+Esotp,20001,0,5,bit,,
+Warning,20001,0,6,bit,,
+WarningDetail,20002,0,0,16bit,,
+e_j1,20003,0,0,8bit,,
+e_j2,20003,0,8,8bit,,
+e_j3,20004,0,0,8bit,,
+e_j4,20004,0,8,8bit,,
+e_j5,20005,0,0,8bit,,
+e_j6,20005,0,8,8bit,,
+jp1_cmd0,25000,1,0,16bit,120,joint_pos1 명령
+jp1_cmd1,25001,1,0,16bit,1,joint_pos1 명령
+jp1_cmd2,25002,1,0,16bit,1,joint_pos1 명령
+pos_j1,25004,0,0,32bit_float,,J1 위치
+pos_j2,25006,0,0,32bit_float,,J2 위치
+pos_j4,25008,0,0,32bit_float,,J4 위치
+jp2_cmd0,25010,1,0,16bit,120,joint_pos2 명령
+jp2_cmd1,25011,1,0,16bit,1,joint_pos2 명령
+jp2_cmd2,25012,1,0,16bit,4,joint_pos2 명령
+pos_j5,25014,0,0,32bit_float,,J5 위치
+pos_j3,25016,0,0,32bit_float,,J3 위치
+pos_j6,25018,0,0,32bit_float,,J6 위치
+jv1_cmd0,25020,1,0,16bit,120,joint_v1 명령
+jv1_cmd1,25021,1,0,16bit,6,joint_v1 명령
+jv1_cmd2,25022,1,0,16bit,1,joint_v1 명령
+v_j1,25024,0,0,32bit_float,,J1 속도
+v_j2,25026,0,0,32bit_float,,J2 속도
+v_j4,25028,0,0,32bit_float,,J4 속도
+jv2_cmd0,25030,1,0,16bit,120,joint_v2 명령
+jv2_cmd1,25031,1,0,16bit,6,joint_v2 명령
+jv2_cmd2,25032,1,0,16bit,4,joint_v2 명령
+v_j5,25034,0,0,32bit_float,,J5 속도
+v_j3,25036,0,0,32bit_float,,J3 속도
+v_j6,25038,0,0,32bit_float,,J6 속도
